@@ -245,3 +245,23 @@ html {
         height: 160px;
     }
 }
+.intro .greeting {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.intro .role {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.intro .tagline {
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+.skill .heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.skill .writeup {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
