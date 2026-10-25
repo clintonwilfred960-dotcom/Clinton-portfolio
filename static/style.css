@@ -246,22 +246,27 @@ html {
     }
 }
 .intro .greeting {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
 }
 .intro .role {
     font-size: 2.4rem;
     font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .intro .tagline {
     font-size: 0.95rem;
     font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
 }
 .skill .heading {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
 }
 .skill .writeup {
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 0.95rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
 }
