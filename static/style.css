@@ -251,7 +251,7 @@ html {
     font-family: 'Times New Roman', Times, serif;
 }
 .intro .role {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -284,4 +284,28 @@ html {
 @keyframes point {
     0%, 100% { transform: translateX(0); }
     50%      { transform: translateX(-10px); }
+}
+.about .me {
+    font-size: 0.95rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+    color: #ffc107;
+}
+.about .description {
+    font-size: 0.85rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+.about {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    padding: 24px;
+    max-width: 700px;
+    margin: 30px auto;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    color: white;
 }
