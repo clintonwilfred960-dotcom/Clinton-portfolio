@@ -46,7 +46,7 @@ if (form) {
         e.preventDefault();
         statusMsg.textContent = "Sending...";
         try {
-            const res = await fetch("https://formsubmit.co/ajax//clintonwilfred960@gmail.com", {
+            const res = await fetch("https://formsubmit.co/ajax/clintonwilfred960@gmail.com", {
                 method: "POST",
                 body: new FormData(form),
                 headers: { "Accept": "application/json" }
