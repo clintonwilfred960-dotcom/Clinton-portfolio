@@ -319,3 +319,10 @@ html {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
     color: white;
 }
+.cursor {
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
