@@ -96,10 +96,15 @@ html {
     color: white;
 }
 .experience {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+     background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    padding: 24px;
+    max-width: 700px;
+    margin: 30px auto;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    color: white;
 }
 .experience h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
