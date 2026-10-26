@@ -22,3 +22,39 @@ function type() {
 }
 
 type();
+
+const hintBtn = document.getElementById("hint");
+const modal = document.getElementById("modal");
+const closeBtn = document.getElementById("closeBtn");
+const form = document.getElementById("contactForm");
+const statusMsg = document.getElementById("status");
+
+if (hintBtn && modal) {
+    hintBtn.addEventListener("click", () => modal.classList.add("open"));
+}
+if (closeBtn && modal) {
+    closeBtn.addEventListener("click", () => modal.classList.remove("open"));
+}
+if (modal) {
+    modal.addEventListener("click", (e) => {
+        if (e.target === modal) modal.classList.remove("open");
+    });
+}
+
+if (form) {
+    form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        statusMsg.textContent = "Sending...";
+        try {
+            const res = await fetch("https://formsubmit.co/ajax//clintonwilfred960@gmail.com", {
+                method: "POST",
+                body: new FormData(form),
+                headers: { "Accept": "application/json" }
+            });
+            statusMsg.textContent = res.ok ? "Message sent. Thank you!" : "Something went wrong. Try again.";
+            if (res.ok) form.reset();
+        } catch {
+            statusMsg.textContent = "Network error. Try again.";
+        }
+    });
+}

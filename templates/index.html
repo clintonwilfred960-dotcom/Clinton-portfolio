@@ -29,7 +29,18 @@
     <p class="description">I am Wilfred Clinton an aspiring Software Engineer. I am 19 Years of age. I am a student of Legacy University Okija under the Department of Software Engineering. I am currently a front end developer currently but have little knowledge on backend development</p></div>
     </div>
     </section>
-    <footer></footer>
+    <div id="modal" class="modal">
+        <div class="modal-box">
+            <span id="closeBtn" class="close">&times;</span>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" rows="5" placeholder="Type your message..." required></textarea>
+                <button type="submit">Send Message</button>
+                <p id="status"></p>
+            </form>
+        </div>
+    </div>
+    <script src="../static/script.js"></script>
 </body>
-<script src="../static/script.js"></script>
 </html>
