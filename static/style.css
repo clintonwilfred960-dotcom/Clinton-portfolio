@@ -392,3 +392,53 @@ footer {
     opacity: 0.7;
     margin: 0;
 }
+.connect-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+.connect-btn {
+    display: inline-block;
+    min-width: 150px;
+    padding: 14px 28px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+.connect-btn:hover {
+    transform: translateY(-3px);
+}
+.whatsapp { background: #25d366; }
+.tiktok { background: #111; }
+.email { background: linear-gradient(135deg, #ff5722, #ff8a00); }
+
+.linkme {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    padding: 24px;
+    max-width: 700px;
+    margin: 30px auto;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.linkme h2 {
+    color: #7b1fa2;
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.linkme p {
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
