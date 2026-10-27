@@ -3,6 +3,12 @@ body {
     background-size: 400% 400%;
     animation: flow 8s ease infinite;
     overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+section {
+    flex: 1;
 }
 @keyframes flow {
     0% { background-position: 0% 50%; }
@@ -364,4 +370,25 @@ html {
     padding: 12px 24px;
     border-radius: 30px;
     cursor: pointer;
+}
+footer {
+    background: #1a1033;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+.footer-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 0;
+}
+.footer-role {
+    color: #ffc107;
+    margin: 4px 0 16px;
+}
+.copyright {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin: 0;
 }
